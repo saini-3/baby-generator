@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baby Name Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Baby Name Generator</h1>
+      <p>Enter father's and mother's names. The system will generate baby names using only letters from both names.</p>
+
+      <form action="process.php" method="POST">
+        <label for="father">Father's Name</label>
+        <input type="text" id="father" name="father" class="input" placeholder="e.g., Ramesh" required>
+
+        <label for="mother">Mother's Name</label>
+        <input type="text" id="mother" name="mother" class="input" placeholder="e.g., Kavita" required>
+
+        <button type="submit" class="btn">Generate Baby Names</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
